@@ -1,8 +1,13 @@
 import turtle
 
 turtle.Turtle()
+
+# Create a screen
 wn = turtle.Screen()
+
+# Create a turtle named al
 al = turtle.Turtle()
+
 wn.bgcolor("green")
 al.color("blue")
 al.pensize(2)
