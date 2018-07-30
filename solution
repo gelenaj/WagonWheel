@@ -1,0 +1,18 @@
+import turtle
+
+turtle.Turtle()
+wn = turtle.Screen()
+al = turtle.Turtle()
+wn.bgcolor("green")
+al.color("blue")
+al.pensize(2)
+al.speed(0)
+
+def create_square():
+    for g in range(24):
+        for e in range(4):
+            al.forward(100)
+            al.left(90)
+        al.left(15)
+
+create_square()  
